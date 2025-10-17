@@ -157,7 +157,7 @@ body,
     .logo {
         width: 150px;
         align-items: center;
-        top: 0px;
+        top: 40px;
         margin-right: auto;
         margin-left: auto;
         height: auto;
@@ -222,9 +222,9 @@ body,
     display: block;
     position: absolute;
     top: 30px;
-    left: 260px;
+    left: 220px;
     width: 28px;
-    z-index: 13;
+    z-index: 33;
 }
 
 .nav-menu {
