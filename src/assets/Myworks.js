@@ -1,4 +1,4 @@
-import Mywork from '../assets/Mywork.png'
+import Mywork0 from '../assets/Mywork0.png'
 import Mywork1 from '../assets/Mywork1.png'
 import Mywork2 from '../assets/Mywork2.png'
 import Mywork3 from '../assets/Mywork3.png'
@@ -10,7 +10,7 @@ const workData = [
   {
     id: 1,
     name: "Portfolio Website",
-    image: Mywork
+    image: Mywork0
   },
   {
     id: 2,
