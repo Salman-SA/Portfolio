@@ -248,6 +248,7 @@ body,
         padding-top: 90px;
         /* ADDED: Add padding so content isn't under the close button */
         padding-bottom: 40px;
+        z-index: 4;
     }
 
     .nav-menu li {
