@@ -1,7 +1,7 @@
 import React from 'react'
 import './Mywork.css'
 import mylatestwork from '../../assets/mylatestwork.svg'
-import Myworks from '../../assets/Myworks'
+import Myworks from '../../assets/Myworks.js'
 import arrow_right from '../../assets/arrow_right.svg'
 
 const Mywork = () => {
