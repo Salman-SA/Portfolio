@@ -1,5 +1,5 @@
 import React from 'react'
-import './vilian.css'
+import './Vilian.css'
 import me from '../../assets/me.png'
 import SalmanAlyahya_CV from '../../assets/SalmanAlyahya_CV.pdf'
 import pdf from '../../assets/pdf.png'
