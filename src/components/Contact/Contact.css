@@ -173,3 +173,81 @@
         font-size: 18px;
     }
 }
+
+@media (max-width: 390px) {
+    .contact {
+        margin: 30px 15px; /* Smaller margins */
+        gap: 30px; /* Reduce gap */
+    }
+
+    .contact-title img {
+        width: 180px;
+         /* Smaller image */
+    }
+
+    .contact-section {
+        flex-direction: column;
+        align-items: start;
+        gap: 0px; /* Reduce spacing */
+    }
+
+    .contact-left h1 {
+        font-size: 36px; /* Smaller heading */
+        text-align: start;
+        margin-bottom: 0;
+
+ }
+
+ .contact-left{
+    margin-left: 15px;
+ }
+
+    .contact-left p {
+        font-size: 14px; /* Smaller text */
+        line-height: 24px;
+        text-align: start;
+        margin-left: 0px;
+        max-width: 80%;
+        ;
+    }
+
+    .contact-detail {
+        justify-content: start;
+        gap: 0; /* Tighter spacing */
+        gap: 10px;
+    }
+
+    .contact-right {
+        width: 60%; /* Full width for small screens */
+        align-items: start;
+             
+
+    }
+
+    .contact-detail img {
+        width: 20px;
+        
+        
+        
+    }
+
+    .contact-right label {
+        font-size: 16px; /* Smaller labels */
+    }
+
+    .contact-right input {
+        width: 130%; /* Full width inputs */
+        font-size: 14px; /* Smaller font */
+    }
+
+    .contact-right textarea {
+        max-width: 240px;
+       min-width: 80px;
+       max-height: 400px;
+    }
+
+    .contact-submit {
+        padding: 12px 30px; /* Smaller button */
+        font-size: 16px;
+    }
+}
