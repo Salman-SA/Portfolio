@@ -99,7 +99,7 @@
 @media (max-width: 768px) {
     .vilian img {
         margin-top: 120px;
-        width: 180px;
+        width: 220px;
         height: auto;
     }
     
@@ -107,6 +107,7 @@
         margin-top: 10px;
         width: 80%;
         font-size: 50px;
+        z-index: 1;
     }
 
     .vilian p {
