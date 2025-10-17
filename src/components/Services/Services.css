@@ -113,3 +113,48 @@
     transform: scale(1.02); /* Smaller hover effect */
   }
 }
+
+
+@media (max-width: 390px) {
+  .services {
+    margin: 20px 10px; /* Even smaller margins */
+    gap: 20px; /* Reduce gap further */
+  }
+
+  .services-title img {
+    width: 150px; /* Smaller image for small screens */
+  }
+
+  .services-container {
+    grid-template-columns: 1f 1fr; /* Single column layout */
+    gap: 15px; /* Smaller gap between items */
+    margin-bottom: 30px; /* Less bottom margin */
+  }
+
+  .services-format {
+    padding: 15px; /* Reduce padding */
+    gap: 8px; /* Tighter spacing */
+  }
+
+  .services-format h3 {
+    font-size: 16px; /* Smaller font */
+  }
+
+  .services-format h2 {
+    font-size: 20px; /* Adjust heading size */
+  }
+
+  .services-format p {
+    font-size: 12px; /* Readable on small screens */
+    line-height: 20px; /* Slightly tighter line height */
+  }
+
+  .services-readmore {
+    gap: 8px; /* Reduce spacing */
+    margin-top: 10px; /* Less top margin */
+  }
+
+  .services-format:hover {
+    transform: scale(1.01); /* Smaller hover effect */
+  }
+}
