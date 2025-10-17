@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import './about.css'
+import './About.css'
 import profilepic from '../../assets/profilepic.svg'
 import aboutme from '../../assets/aboutme.svg'
 import LightRays from '../LIghtRays/LightRays'
