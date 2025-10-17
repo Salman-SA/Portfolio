@@ -122,7 +122,8 @@
   }
 
   .services-title img {
-    width: 150px; /* Smaller image for small screens */
+    width: 150px;
+      margin-bottom: 30px;/* Smaller image for small screens */
   }
 
   .services-container {
