@@ -1,0 +1,115 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.services-title {
+    position: relative;
+}
+
+.services-title img{
+    width: 400px;
+    height: auto;
+}
+
+.services-format{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.4s;
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.services-format h3{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.services-format h2{
+    font-size: 38px;
+    font-weight: 600;
+    background: linear-gradient(150deg, tan ,rgb(63, 76, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.services-format p{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 40px;
+    max-width: 800px;
+}
+
+.services-readmore{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.services-format:hover{
+    border: 2px solid rgb(80, 103, 255);
+    background-image: linear-gradient(45deg, rgb(0, 53, 81),rgb(65, 50, 31)) ;
+    transform: scale(1.05) ;
+    transition: 0.4s;
+}
+
+
+@media (max-width: 768px) {
+  .services {
+    margin: 40px 20px; /* Smaller margins */
+    gap: 40px; /* Smaller gap */
+  }
+
+  .services-title img {
+    width: 200px; /* Smaller image */
+  }
+
+  .services-container {
+    grid-template-columns: 1fr 1fr; /* Single column on mobile */
+    gap: 20px; /* Smaller gap */
+    margin-bottom: 40px; /* Less bottom margin */
+  }
+
+  .services-format {
+    padding: 20px; /* Smaller padding */
+    gap: 12px; /* Tighter spacing */
+  }
+
+  .services-format h3 {
+    font-size: 18px; /* Smaller font */
+  }
+
+  .services-format h2 {
+    font-size: 22px; /* Smaller font */
+  }
+
+  .services-format p {
+    font-size: 14px; /* Smaller font */
+    line-height: 24px; /* Tighter line height */
+  }
+
+  .services-readmore {
+    gap: 10px; /* Tighter gap */
+    margin-top: 15px; /* Less margin */
+  }
+
+  .services-format:hover {
+    transform: scale(1.02); /* Smaller hover effect */
+  }
+}

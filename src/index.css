@@ -1,0 +1,18 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: outfit;
+  color:white;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #232323, #171717, #1a1a1a);
+  background-size: 400% 400%; /* مهم عشان الحركة تظهر */
+  animation: gradientMove 20s ease infinite;
+  overflow-x: hidden;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
