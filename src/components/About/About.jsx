@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from 'react'
 import './About.css'
 import profilepic from '../../assets/profilepic.svg'
 import aboutme from '../../assets/aboutme.svg'
-import LightRays from '../LIghtRays/LightRays'
 
 
 const About = () => {
