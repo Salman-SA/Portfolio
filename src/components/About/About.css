@@ -21,7 +21,7 @@
     margin:70px 20px ;
     width: 400px;
     height: auto;
-    border: 3px solid rgb(2, 56, 255);
+    border: 1px solid rgb(2, 56, 255);
     border-radius: 50px;
     -webkit-mask-image: linear-gradient(to bottom, black 90px, transparent 100%);
     -webkit-mask-repeat: no-repeat;
