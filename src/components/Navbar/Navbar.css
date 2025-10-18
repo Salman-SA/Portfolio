@@ -163,7 +163,7 @@ body,
         
         height: auto;
         object-fit: contain;
-        position: relative;
+        position: fixed;
         /* ADDED: For proper z-index stacking */
         z-index: 2;
         /* ADDED: Ensure logo is above any navbar background */
