@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
@@ -17,6 +17,25 @@ const Navbar = () => {
   const closeMenu = () => {
     menuref.current.style.right = "-100%";
   }
+   const [showLogo, setShowLogo] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY > lastScrollY && currentScrollY > 80) {
+        setShowLogo(false); // Hide logo when scrolling down
+      } else {
+        setShowLogo(true); // Show logo when scrolling up
+      }
+
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [lastScrollY]);
 
   return (
     // This outer div now has the class 'site-header-area' for CSS styling.
@@ -33,7 +52,11 @@ const Navbar = () => {
 
       {/* Your existing Navbar content */}
       <div className='navbar'>
-        <img src={logo} alt="" className="logo" />
+        <img
+          src={logo}
+          alt='logo'
+          className={`logo ${showLogo ? 'logo--visible' : 'logo--hidden'}`}
+        />
         <img src={hamburger} onClick={openMenu} alt='none' className='nav-mob-open' />
 
         <ul ref={menuref} className="nav-menu">
