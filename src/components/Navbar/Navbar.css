@@ -155,14 +155,11 @@ body,
     }
 
     .logo {
-        width: 100px;
+        width: 90px;
         align-items: start;
         top: 0px;
-        right: 80px;
-        margin: 0;
-        
+        left: 0;     
         height: auto;
-        object-fit: contain;
         position: fixed;
         /* ADDED: For proper z-index stacking */
         z-index: 2;
