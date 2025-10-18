@@ -155,11 +155,12 @@ body,
     }
 
     .logo {
-        width: 150px;
-        align-items: center;
-        top: 40px;
-        margin-right: auto;
-        margin-left: auto;
+        width: 100px;
+        align-items: start;
+        top: 0px;
+        right: 80px;
+        margin: 0;
+        
         height: auto;
         object-fit: contain;
         position: relative;
