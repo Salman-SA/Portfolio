@@ -56,6 +56,8 @@ body,
     /* ADDED: For proper z-index stacking */
     z-index: 2;
     /* ADDED: Ensure logo is above any navbar background */
+      transition: opacity 0.3s ease, transform 0.3s ease;
+
 }
 
 /* style the nav menu */
@@ -137,6 +139,16 @@ body,
     padding: 0 50px;
 }
 
+.logo--hidden {
+  opacity: 0;
+  transform: translateY(-20px);
+  pointer-events: none;
+}
+
+.logo--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 @media(max-width:768px) {
 
