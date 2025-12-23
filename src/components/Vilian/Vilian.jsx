@@ -27,14 +27,7 @@ const Vilian = () => {
                 </div>
             
 
-                    <img src={pdf} alt='PDF Icon' className="resume-icon" />
-                    <span>My Resume</span>
-                </a>
-
-
-
-            </div>
-            
+                  
 
         </div>
     )
